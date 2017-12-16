@@ -1,0 +1,100 @@
+.margin-right-container{
+	background-color: #FFFFFF;padding: 3rem 0;width: 90%;margin: 0 5%;margin-top: 2rem;
+}
+.margin-right-container-nav{
+	width: 20%;float: left;text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}
+.main-right-navs{
+	background-color: #E9EDF2;padding: 2rem 0;color: #90999C;font-size: 1.5rem;width: 95%;padding-left: 5%;
+}
+.main-right-navs a{
+	text-decoration: none;color:#90999C ;margin-right: 1rem;
+}
+.section{
+	font-size: 1.3rem;width: 96%;margin: 0 2%;
+}
+.section1{
+	border-bottom: 3px solid #DDDDDD;height: 5rem;line-height: 5rem;
+}
+.margin-right-container-nav2 img{
+	height: 10rem;border-radius: 5px;
+}
+.margin-right-container-nav2{
+	height: 12rem;line-height: 12rem;margin-top: 3rem;border-bottom: 1px solid #DDDDDD;padding-bottom: 1rem
+}
+.margin-right-container-nav2 a{
+	text-decoration: underline;margin: 0 5px;cursor: pointer;
+}
+.margin-right-container1{
+	padding-top: 1rem;
+}
+.margin-right-container-nav4{
+	width: 65%;padding-left: 5%;text-align: left;line-height: 2rem;height: 16rem
+}
+
+.input-group-left{
+	width: 20%;float: left;height:3rem;line-height: 3rem;margin-top: 1rem;
+}
+.input-group-right{
+	width: 50%;float: left;height:3rem;line-height: 3rem;border: 1px solid gainsboro;margin-top: 1rem;padding-left: 5%;
+}
+.sure{
+	width: 100%;height: 2.5rem;line-height: 2.5rem;background-color: #22BAA0;text-align: center;border-radius: 5px;margin-top: 3rem;color: #ffffff;cursor: pointer;
+}
+.margin-right-container-nav5{
+	width: 10%;float: left;
+}
+
+
+.list-section{
+	height:20rem;width: 20rem;border: 3px solid #2B384E;border-radius: 50%;text-align: center;margin:3rem;float: left
+}
+.position{
+	height: 8rem;line-height: 8rem;font-size: 3rem
+}
+.price{
+	height: 4rem;line-height: 4rem;font-size: 1.5rem
+}
+.red{
+	color: red;font-weight: bold;font-size: 2rem
+}
+.detail{
+	height: 4rem;line-height: 4rem;cursor: pointer;
+}
+
+.title-left,.title-right{
+	width: 50%;float: left
+}
+.title-left{
+	text-align: left;
+}
+.title-right{
+	text-align: right;
+}
+.title{
+	border-bottom: 1px solid  #2B384E;width: 100%;padding:1rem 0
+}
+.order-section{
+	width: 30%;float: left;padding: 1rem;border: 1px solid #2B384E;margin-left: 1%;border-radius: 5px;margin-right: 3rem
+}
+.num{
+	color: red;font-weight: bold;
+}
+
+
+.detail-left{
+	width: 20%;float: left
+}
+.detail-right{
+	width: 80%;float: left
+}
+.details{
+	display: inline-block;margin-right: 1rem
+}
+
+.dayin-btn{
+	float: right;padding:1px 10px;border-radius: 5px;height: 2rem;line-height: 2rem;background-color: #22BAA0;color: #ffffff
+}
+.dayin-all{
+	padding: 1rem 2rem;background-color: #22BAA0;color: #ffffff;border-radius: 5px;margin-left: 1%;margin-bottom: 3rem
+}

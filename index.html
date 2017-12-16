@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="content-Type" content="text/html;charset=utf-8"> 
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="description" content="新海集团总部食堂后台管理系统" />
+		<meta name="author" content="张凯益" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/ico.ico" media="screen" />
+		<title>新海食堂管理系统</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div class="main-left main-left2">
+				<div class="main-left-header">新海食堂管理系统</div>
+				<div class="main-left-nav">
+					<div class="main-left-navs main-left-manage">
+						<p class="nav-name">菜品管理</p>
+						<div class="navs navs-first"  onclick="window.location.href='list.html'">菜品列表</div>
+						<div class="navs" onclick="window.location.href='add.html'">菜品增加</div>
+					</div>
+					<div class="main-left-navs main-left-collect">
+
+						<p class="nav-name">订单汇总</p>
+						<div class="navs navs-first" onclick="window.location.href='month_summary.html'">月末汇总</div>
+						<div class="navs" onclick="window.location.href='order_summary.html'">配菜汇总</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-left"></div>
+			<div class="main-right">
+				<div class="main-right-header"></div>
+				<div class="main-right-header2">
+					<p class="main-right-header2-title">新海食堂管理系统</p>
+					<p class="main-right-header2-nav">首页/welcome</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+		<script>
+			$(function(){
+				
+				var body_height = $(document).height();
+				$(".main").css("height",body_height+"px")
+			})
+		</script>
+	</body>
+</html>

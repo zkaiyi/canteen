@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="content-Type" content="text/html;charset=utf-8"> 
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/ico.ico" media="screen" />
+		<meta name="description" content="新海集团总部食堂后台管理系统" />
+		<meta name="author" content="张凯益" />
+		<title>新海食堂管理系统</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/list.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div class="main-left main-left2">
+				<div class="main-left-header">新海食堂管理系统</div>
+				<div class="main-left-nav">
+					<div class="main-left-navs main-left-manage">
+						<p class="nav-name">菜品管理</p>
+						<div class="navs  navs-first" onclick="window.location.href='list.html'">菜品列表</div>
+						<div class="navs" onclick="window.location.href='add.html'">菜品增加</div>
+					</div>
+					<div class="main-left-navs main-left-collect navs-active">
+
+						<p class="nav-name">订单汇总</p>
+						<div class="navs navs-first" onclick="window.location.href='month_summary.html'">月末汇总</div>
+						<div class="navs nav-active" onclick="window.location.href='order_summary.html'">配菜汇总</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-left"></div>
+			<div class="main-right">
+				<div class="main-right-header"></div>
+				<div class="main-right-navs">
+					<a href="index.html">管理首页</a><a class="split">/</a><a>订单汇总</a><a>/</a><a>配菜汇总</a>
+				</div>
+				<div class="margin-right-container">
+					<div>
+						<button class="dayin-all">一键打印</button>
+					</div>
+					
+
+					<div class="order-section">
+						<div class="title">
+							<div class="title-left">
+								<a>菜品名称:</a>
+								<a>红烧鱼</a>
+							</div>
+							<div class="title-right">
+								<a>总计:</a>
+								<a class="num">20</a>
+								<a>道</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="detail">
+							<div class="detail-left">
+								<div class="details">桌号:</div>
+							</div>
+							<div class="detail-right">
+								<div class="details">
+									<a>${table_id}</a>
+									<input type="checkbox" />
+								</div>
+								<div class="details">
+									<a>C</a>
+									<input type="checkbox" />
+								</div>
+								<div class="details">
+									<a>C</a>
+									<input type="checkbox" />
+								</div>
+
+							</div>
+							<div class="clear"></div>
+							<div class="dayin">
+								<div class="dayin-btn">打印</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="order-section">
+						<div class="title">
+							<div class="title-left">
+								<a>菜品名称:</a>
+								<a>红烧鱼</a>
+							</div>
+							<div class="title-right">
+								<a>总计:</a>
+								<a class="num">20</a>
+								<a>道</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="detail">
+							<div class="detail-left">
+								<div class="details">桌号:</div>
+							</div>
+							<div class="detail-right">
+								<div class="details">
+									<a>${table_id}</a>
+									<input type="checkbox" />
+								</div>
+								<div class="details">
+									<a>C</a>
+									<input type="checkbox" />
+								</div>
+								<div class="details">
+									<a>C</a>
+									<input type="checkbox" />
+								</div>
+
+							</div>
+							<div class="clear"></div>
+							<div class="dayin">
+								<div class="dayin-btn">打印</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="clear"></div>
+				</div>
+				
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+		<script>
+			$(function(){
+				
+				var body_height = $(document).height();
+				$(".main").css("height",body_height+"px")
+			})
+		</script>
+	</body>
+</html>
